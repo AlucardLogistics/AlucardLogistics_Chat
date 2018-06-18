@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AlucardLogistics_Chat</string>
+    <string name="display_name">display name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="alucard_chat">Alucard Chat</string>
+    <string name="log_out">Log Out</string>
+    <string name="register">Register</string>
+    <string name="login">Login Bar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_status">Change Status</string>
+    <string name="statusValue">status value</string>
+    <string name="userID">userID</string>
+    <string name="fromUserID">from_user_id</string>
+    <string name="accepteFriendRequest">Accept Friend Request</string>
+    <string name="sendFriendRequest">Send Friend Request</string>
+    <string name="cancelFriendRequest">Cancel Friend Request</string>
+    <string name="profileUserName">username</string>
+    <string name="profileThumbImage">profileThumbImage</string>
+    <string name="currentUserID">currentUserID</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/defaultphoto"
+        app:civ_border_color="@color/colorPressed"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/tvDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="258dp"
+        android:text="Display Name"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="248dp"
+        android:text="Alucard Logistics Chat App is ossom!"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:width="140dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Change Image"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnChangeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:width="140dp"
+        android:background="#dc63da"
+        android:text="Change Status"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

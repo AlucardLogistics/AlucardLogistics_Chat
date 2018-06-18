@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "94889967227",
+    "firebase_url": "https://alucardlogisticschat.firebaseio.com",
+    "project_id": "alucardlogisticschat",
+    "storage_bucket": "alucardlogisticschat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94889967227:android:0e46a58def85937a",
+        "android_client_info": {
+          "package_name": "com.logistics.alucard.alucardlogistics_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94889967227-r1tq7ut2qnj1t1c2knfq1kg6capprbsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logistics.alucard.alucardlogistics_chat",
+            "certificate_hash": "f83c3e441ef0841162057986c111a989b8b5a004"
+          }
+        },
+        {
+          "client_id": "94889967227-g248t91vq7epj1nquna6o5g24ra4f2ea.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "94889967227-g248t91vq7epj1nquna6o5g24ra4f2ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYHOY2sT8p3tSCji_YeiHPN-SaBJbSc7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94889967227-g248t91vq7epj1nquna6o5g24ra4f2ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UsersActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/all_users_appbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/all_users_appbar"
+        android:id="@+id/recycle_users_list">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
